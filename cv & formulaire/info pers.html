@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personel info</title>
+</head>
+<body style="margin: 10%;">
+    <form>
+        <fieldset class="first" style="background-color: azure;border-width: 10px;text-align: center;font-size:20px;border-color: rgb(48, 72, 207);">
+           <legend style="font-weight: 800;">
+                 Personel Info
+            </legend>
+            <label for="Fname">Nom :</label> <br>
+            <input id="Fname" type="texte" name="Fname" placeholder="Entrer votre nom">
+            <br> <br>
+            <label for="Lname">Prénom :</label> <br>
+            <input id="Lname" type="texte" name="Lname" placeholder="Entrer votre prénom">
+            <br> <br>
+            <label for="birthday">Date de naissance :</label> <br>
+            <input id="birthday" type="date" name="birthday" value="2002-12-31" min="1990-01-01" max="2002-12-31">
+            <br> <br>
+            <label for="bio">Biographie:</label><br>
+<textarea id="bio" name="bio" rows="10" cols="50"> tell us about your self
+  </textarea>
+  <br><br>
+                <label for="sexe">Sexe :</label> <br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+               
+    
+  
+            <br>
+            <label for="Country">Pays:</label> <br>
+            <select id="Country" name="Country">
+                <optgroup label="Afrique"></optgroup>
+                    <option>Maroc</option>
+                    <option>Algérie</option>
+                    <option>Tunisie</option>
+                <optgroup label="Europe"></optgroup>
+                    <option>France</option>
+                    <option>Espagne</option>
+            </select>
+            
+
+        </fieldset>
+    
+        <fieldset class="second" style="text-align: center; background-color: rgb(152, 255, 255); font-size: 20px;border-width: 10px;">
+            <legend style="font-weight: 800;">Loisir</legend>
+            <input type="checkbox" id="swiming" name="swiming" value="swiming">
+            <label for="swiming">Swiming</label>
+            <input type="checkbox" id="painting" name="painting" value="painting">
+            <label for="painting">painting</label>
+            <input type="checkbox" id="reading" name="reading" value="reading">
+            <label for="reading">reading</label>
+        </fieldset>
+        <div style="text-align: center;">
+        <input style="background-color: darkgreen;border: none;display: inline-block; color: white;padding: 5px 5px;" type="submit" value="Envoyé">
+        <input style="background-color: darkgreen;border: none;display: inline-block; color: white;padding: 5px 5px;"type="reset" value="vider">
+    </div>
+    </form>
+    <br> <br>
+
+</body>
+</html>
